@@ -1,0 +1,97 @@
+body
+{
+	font-family:Segoe UI,Georgia,Verdana;
+	line-height:135%;
+	font-size:13pt;
+	padding:20px 20px 150px 20px;
+	background-color:#f8f8f8;
+	color:#211;
+	text-shadow:1px 1px 5px #fff;
+}
+
+a
+{
+	color:#111;
+}
+
+a:visited
+{
+	color:#888;
+}
+
+a:hover
+{
+	color:Red;
+	text-shadow:1px 1px 5px #ff8;
+}
+
+h1, h2, h3
+{
+	color:#322;
+	text-shadow:1px 1px 5px #FFd;
+}
+
+h2
+{
+	margin-top:40px;
+}
+
+h1 + div, h2 + div, h3 + div
+{
+	padding-left:20px;
+}
+
+h1
+{
+}
+
+.logo
+{
+	position:absolute;
+	top:0px;
+	right:100px;
+	z-index:3;
+}
+
+.JD
+{
+	max-width:900px;
+	margin: 0 auto;
+	padding:30px;
+	border:1px solid #CCC;
+	box-shadow:5px 5px 10px #AAA;
+	border-radius:10px;
+}
+
+.callToAction:not(:hover)
+{
+	animation-duration: 1s;
+	animation-name: animateColor;
+	animation-iteration-count: infinite;
+	animation-direction: alternate;
+	
+	-webkit-animation-duration: 1s;
+	-webkit-animation-name: animateColor;
+	-webkit-animation-iteration-count: infinite;
+	-webkit-animation-direction: alternate;
+}
+
+@-webkit-keyframes animateColor {
+	from {
+		color:#111;
+	}
+
+	to {
+		color:red;
+	}
+}
+
+@keyframes animateColor {
+	from {
+		color:#111;
+	}
+
+	to {
+		color:red;
+	}
+}
