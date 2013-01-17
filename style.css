@@ -64,7 +64,7 @@ h1
 	border-radius:10px;
 }
 
-.callToAction:not(:hover)
+.callToAction_disabled:not(:hover)
 {
 	animation-duration: 1s;
 	animation-name: animateColor;
